@@ -1,0 +1,5 @@
+- lux (for brightness)
+- brave (browser)
+- thunar (filemanager)
+- terminator (terminal)
+- rofi (menu)
