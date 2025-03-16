@@ -9,6 +9,7 @@ import XMonad.Layout.NoBorders
 import XMonad.Layout.Spacing
 import XMonad.Layout.ResizableTile
 
+import XMonad.Util.EZConfig (additionalKeys)
 import Graphics.X11.ExtraTypes.XF86
 
 import qualified XMonad.StackSet as W
@@ -135,7 +136,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((0, xF86XK_MonBrightnessDown), spawn "lux -s 5%")
     
     -- Screenshot
-    , ((modm, xK_Print), spawn "xfce4-screenshooter")
+    , ((0, xK_Print), spawn "xfce4-screenshooter")
     -- Toggle the status bar gap
     -- Use this binding with avoidStruts from Hooks.ManageDocks.
     -- See also the statusBar function from Hooks.DynamicLog.
