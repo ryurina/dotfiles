@@ -5,3 +5,5 @@
 - kitty (terminal)
 - wmname (for fixing java problem (e.g. Ghidra)
 - picom (for fading)
+- nitrogen (for wallpaper)
+- xfce4-screenshooter (for screenshot)
